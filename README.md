@@ -20,10 +20,13 @@ yarn create react-app ../udemy-react-redux-crud-application/
 ```
 docker-compose build
 <!-- docker-compose run --rm node sh -c 'npm install -g create-react-app && create-react-app react-sample' -->
-docker-compoer up
+docker-compose up
 ```
 
 into docker
+```
+docker exec -it docker_node_1 /bin/sh
+```
 
 ```
 yarn run start
